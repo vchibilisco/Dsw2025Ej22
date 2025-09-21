@@ -60,6 +60,10 @@
   padding: 1rem;
 }
 
+.dashboard-container nav.active {
+  left: 0;
+}
+
 @media screen and (min-width: 600px) {
   .dashboard-container {
     grid-template-columns: 200px 1fr;
